@@ -1,0 +1,16 @@
+mode: safe
+use_synthetic_data_by_default: true
+preserve_original_trace: true
+require_audit_identity: true
+allowed_methods:
+  - GET
+blocked_methods:
+  - POST
+  - PUT
+  - PATCH
+  - DELETE
+mask_fields:
+  - name
+  - account_number
+  - mobile_number
+  - email

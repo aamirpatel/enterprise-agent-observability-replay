@@ -1,0 +1,6 @@
+scenario_id,category,trigger,expected_observation,replay_safe
+FS001,TOOL_TIMEOUT,CUST-TIMEOUT,Customer Profile API timeout,true
+FS002,API_FAILURE,LN-ERROR,Loan Status API returns HTTP 503,true
+FS003,DATA_NOT_FOUND,CUST-UNKNOWN,Customer Profile API returns HTTP 404,true
+FS004,LATENCY_BOTTLENECK,risk delay_ms=2500,Risk Assessment API is slow,true
+FS005,VALIDATION_FAILURE,missing required identifier,Agent asks for customer or loan identifier,true

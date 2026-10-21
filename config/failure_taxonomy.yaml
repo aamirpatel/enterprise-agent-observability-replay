@@ -1,0 +1,8 @@
+categories:
+  API_FAILURE: "External API returned an error"
+  TOOL_TIMEOUT: "Tool exceeded the configured timeout"
+  VALIDATION_FAILURE: "Output did not meet validation rules"
+  AUTHORIZATION_FAILURE: "Call was rejected by access control"
+  DATA_NOT_FOUND: "Required record was not available"
+  QUALITY_REGRESSION: "Response quality fell below threshold"
+  UNKNOWN: "Failure requires triage"
