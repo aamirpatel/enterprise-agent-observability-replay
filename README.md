@@ -1,6 +1,6 @@
 # Enterprise Agent Observability & Replay Platform
 
-## Banking AI Agents Hackathon Starter Repository
+## Banking AI Agents Starter Repository
 
 This starter repository provides a working Loan Support AI Agent, mock banking APIs, database schema templates, synthetic historical traces, failure scenarios, telemetry, and a basic application framework.
 
